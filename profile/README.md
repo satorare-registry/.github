@@ -20,6 +20,8 @@ Prior to the entries on Counterparty that get pushed onchain, this Github organi
 
 Github and Counterparty should be sufficient for the process of listing sats in the registry. Details on how Github will be used for this are still under considerations but likely will simply use Issues and maybe Discussions as well. Registry snapshots will also be stored here on Github and published to satorare.org. 
 
+The registry serves as a public utility for the new and future use case of anchoring sats to meaningful events, people, places and anything else that is determined to be well served by having an associated sat as a rich digital artifact.
+
 # XSAT 
 
 There is a special unique Counterparty named asset - XSAT 
@@ -61,7 +63,7 @@ User contributed content, blockchain data, known associations such as world even
 
 TBD
 
-# Token Config
+# Token Config (XSAT, SATORARE etc)
 
 TBD
 
