@@ -37,10 +37,15 @@ Examples:
 etc.
 
 Each XSAT Subasset will include metadata and chain info related to that Ordinal sat.
-Eventually, a market can form around this datbase where trustless PSBT trades can be done.
+Eventually, a market can form around this database where trustless PSBT trades can be done.
+It will also evolve into a hybrid wiki/markketplace/wallet. 
 
 The data from the Satorare Registry is available to anyone for integration or general perusal. 
 It is on the Bitcoin Blockchain! 
+
+# Inscriptions
+
+The sats submitted to the Satorare Registry do not need to have an inscription associated with it.
 
 # Registry Submissions
 
