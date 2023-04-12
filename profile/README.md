@@ -47,6 +47,16 @@ It is on the Bitcoin Blockchain!
 
 The sats submitted to the Satorare Registry do not need to have an inscription associated with it.
 
+# SAT.SN
+
+A short URL for sats that only include the sat serial number (sn).
+These pages will show all info about the sat as well as tracking the sat as it traverses through the network.
+If there is an inscription, the data will be displayed.
+If there is available market activity (buys/sells) that info will be included.
+User contributed content, blockchain data, known associations such as world events etc are all available on sat pages.
+
+- sat.sn/1311797500000000
+
 # Registry Submissions
 
 TBD
