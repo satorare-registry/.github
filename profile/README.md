@@ -57,7 +57,8 @@ If there is an inscription, the data will be displayed.
 If there is available market activity (buys/sells) that info will be included.
 User contributed content, blockchain data, known associations such as world events etc are all available on sat pages.
 
-- sat.sn/1311797500000000
+- `sat.sn/0`
+- `sat.sn/1311797500000000`
 
 # Registry Submissions
 
