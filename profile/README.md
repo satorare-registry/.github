@@ -20,7 +20,9 @@ Prior to the entries on Counterparty that get pushed onchain, this Github organi
 
 Github and Counterparty should be sufficient for the process of listing sats in the registry. Details on how Github will be used for this are still under considerations but likely will simply use Issues and maybe Discussions as well. Registry snapshots will also be stored here on Github and published to satorare.org. 
 
-The registry serves as a public utility for the new and future use case of anchoring sats to meaningful events, people, places and anything else that is determined to be well served by having an associated sat as a rich digital artifact.
+The registry serves as a public utility for the new and future use case of anchoring sats to meaningful events, people, places and anything else that is determined to be well served by having an associated sat as a rich digital artifact. Of course it also will include art and any noteworthy inscriptions associated with a sat. Inscribed data can imbue value onto a sat as much as a sat can imbue value onto an inscription. 
+
+The Satorare Registry is essentially a curated collection of interestings sats and inscriptions. Subcollections and onchain exhibits will also be created from the master collection. These subcollections would be created by a community of curators that may form. Custom curated subcollections and virtual onchain exhibits can be namespaced with custom names that adhere to a simple protocol. 
 
 # XSAT 
 
@@ -67,6 +69,26 @@ TBD
 # Token Config (XSAT, SATORARE etc)
 
 TBD
+
+# Subcollections and Exhibits
+
+While all entries in the Satorare Registry are stored as an XSAT subasset named with sat serial numbers, curated subcollections/exhibits can use any Counterparty asset owned by anyone as the organizing parent in a hierarchical structure. Official subcollections/exhibits created by the Satorare curation team will exist under the **SATORARE** Counterparty Asset.
+
+- `SATORARE.<SUBCOLLECTION_NAME>`
+
+Associated metadata in each subcollection will include all information about the curated subcollection such as curation criteria, curator(s) statement and list of curator idenitifiers (if desired to be referenced).
+
+- `SATORARE.<SUBCOLLECTION_NAME>.<XSAT_SERIAL_NUMBER>`
+
+All entries in a subcollection/exhibit simply reference the sat serial numbers that are included under XSAT as subassets. Any sat serial numbers not in the registry do not qualify to be included in subcollections/exhibits. This applies to any external subcollection as well. If there is discrepencies, the external subcollection will not be considered as part of Satorare but rather a seperate rogue collection, which is fine. It is encouraged to create curated Ordinal sats and inscriptions using Counterparty in the way that Satorare does. If these collections are referenced as curated curated collections, it will just be noted that it is not a strictly Satorare Protocol conforming collection. 
+
+There may be cases where there are more complex organizing structures for subcollections. One example could be to support curator groups within groups or individual curators with their own curated subcollections but still associated with a larger group the individual is a part of.
+
+- `SATORARE.<SUBCOLLECTION_NAME>.<CURATOR_NAME>.<SUBCOLLECTION_NAME>.<XSAT_SERIAL_NUMBER>`
+- `<EXTERNAL_ASSET_NAME>.<SUBCOLLECTION_NAME>.<CURATOR_NAME>.<SUBCOLLECTION_NAME>.<XSAT_SERIAL_NUMBER>`
+
+Satorare is both exclusive and inclusive. Curation is the top-level motivation and that runs down into all subsets of data and people.
+
 
 
 
