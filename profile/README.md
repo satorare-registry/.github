@@ -110,9 +110,13 @@ The metadata standard that Satorare will use is TBD.
 
 While the Satorare Registry is up and running (managed by team and used by community) there will be an ongoing development project to build a new Wallet and Marketplace that leverages the Satorare Registry data. It is hoped that other wallets, tools and services will also integrate the Satorare Registry.
 
-It is an ambition to also incorporate smart sat handling within the wallet software. This is related to sat hunting (panning) and smart sat sorting (to avoid spending sat of value without intent and to get insights into the sats you own. 
+It is an ambition to also incorporate smart sat handling within the wallet software. This is related to sat hunting (panning) and sat sorting, which is meant to avoid spending sats of value without intent and to get insights into the sats that you own. 
 
 The Wallet will be called Satori and more info will be published to http://satoriwallet.xyz.
 
 > Satori refers to a sudden, intuitive understanding or insight into the nature of reality or the true nature of oneself. It is often described as a moment of enlightenment or awakening, in which one transcends the limitations of the ego and experiences a sense of oneness with the universe. Satori is considered to be a profound and transformative experience, and is often sought after by Zen practitioners through meditation and other spiritual practices.
+
+# Satorare DAO
+
+lol ¯\_(ツ)_/¯  
 
