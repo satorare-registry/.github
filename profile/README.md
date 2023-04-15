@@ -6,9 +6,9 @@ Other repos for websites and tooling will also all exist here.
 # What does the word SATORARE mean?
 
 "Satorare" (悟られ) is a verb in Japanese.
-"Satorare" is a term that describes a state of being understood or realized.
+"Satorare" is a term that describes a state of being understood or realized. In some contexts is is described as sudden, unpredictable moments of enlightenment or realization. In a way, discovering, creating and curating sats of value can similar effect.
+
 The word itself is rarely used.
-The original name for this project was *Satori* but it seems it is being used by a few other projects in crypto space.
 
 Since both "sat" and "rare" are in this word, it is quite apropos for this project.
 
@@ -106,6 +106,13 @@ STAMPS Protocol will be used within Satorare Registry to store metadata (with or
 
 The metadata standard that Satorare will use is TBD. 
 
+# Wallet and Marketplace (Satori)
 
+While the Satorare Registry is up and running (managed by team and used by community) there will be an ongoing development project to build a new Wallet and Marketplace that leverages the Satorare Registry data. It is hoped that other wallets, tools and services will also integrate the Satorare Registry.
 
+It is an ambition to also incorporate smart sat handling within the wallet software. This is related to sat hunting (panning) and smart sat sorting (to avoid spending sat of value without intent and to get insights into the sats you own. 
+
+The Wallet will be called Satori and more info will be published to http://satoriwallet.xyz.
+
+> Satori refers to a sudden, intuitive understanding or insight into the nature of reality or the true nature of oneself. It is often described as a moment of enlightenment or awakening, in which one transcends the limitations of the ego and experiences a sense of oneness with the universe. Satori is considered to be a profound and transformative experience, and is often sought after by Zen practitioners through meditation and other spiritual practices.
 
