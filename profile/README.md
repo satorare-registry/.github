@@ -89,7 +89,22 @@ There may be cases where there are more complex organizing structures for subcol
 
 Satorare is both exclusive and inclusive. Curation is the top-level motivation and that runs down into all subsets of data and people.
 
+# STAMPS
 
+STAMPS is a recent addition to onchain Bitcoin data storage via Counterparty. 
+It caters mostly to 8-bit art with a 24x24 dimension and very small filesize.
+SVG is also popular. 
+Compared to Inscriptions, STAMPS is more expensive but the data onchain is **stickier** (less prunable).
+
+See https://stampchain.io and https://tokenstamps.io.
+
+STAMPS is a simple protocol that looks like this:
+
+`STAMP:<base64>`
+
+STAMPS Protocol will be used within Satorare Registry to store metadata (with or without an image file).
+
+The metadata standard that Satorare will use is TBD. 
 
 
 
