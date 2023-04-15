@@ -6,28 +6,28 @@ Other repos for websites and tooling will also all exist here.
 # What does the word SATORARE mean?
 
 "Satorare" (悟られ) is a verb in Japanese.
-"Satorare" is a term that describes a state of being understood or realized. In some contexts is is described as sudden, unpredictable moments of enlightenment or realization. In a way, discovering, creating and curating sats of value can similar effect.
+"Satorare" is a term that describes a state of being understood or realized. In some contexts is is described as sudden, unpredictable moments of enlightenment or realization. In a way, discovering, creating and curating sats of value can have a similar effect.
 
 The word itself is rarely used.
 
-Since both "sat" and "rare" are in this word, it is quite apropos for this project.
+"SAT" and "RARE" seperated by the letter O (Ordinals) make this word quite apropos for this project.
 
 # The Registry
 
 The Satorare Registry will use the Counterparty Bitcoin Asset and Message Protocol. Though not commonly used to organize information, it happens to be an ideal platform for this use case by leveraging subassets to create collections and parent-child hierachies with enough text for values to make it useful like a K/V store. All data is pushed onchain as special Counterparty protocol messages (on Bitcoin Blockchain).
 
-Prior to the entries on Counterparty that get pushed onchain, this Github organization's repo(s) will be used to submit Ordinal sat serial numbers with additional information pertaining to why it should be included in the Satorare Registry and be considered pne of the sats of value. 
+Prior to the entries on Counterparty that get pushed onchain, this Github organization's repo(s) will be used to submit Ordinal sat serial numbers with additional information pertaining to why it should be included in the Satorare Registry and be considered one of the sats of value. 
 
 Github and Counterparty should be sufficient for the process of listing sats in the registry. Details on how Github will be used for this are still under considerations but likely will simply use Issues and maybe Discussions as well. Registry snapshots will also be stored here on Github and published to satorare.org. 
 
 The registry serves as a public utility for the new and future use case of anchoring sats to meaningful events, people, places and anything else that is determined to be well served by having an associated sat as a rich digital artifact. Of course it also will include art and any noteworthy inscriptions associated with a sat. Inscribed data can imbue value onto a sat as much as a sat can imbue value onto an inscription. 
 
-The Satorare Registry is essentially a curated collection of interestings sats and inscriptions. Subcollections and onchain exhibits will also be created from the master collection. These subcollections would be created by a community of curators that may form. Custom curated subcollections and virtual onchain exhibits can be namespaced with custom names that adhere to a simple protocol. 
+The Satorare Registry is essentially a curated collection of interesting sats and inscriptions. Subcollections and onchain exhibits will also be created from the master collection. These subcollections would be created by a community of curators that may form. Custom curated subcollections and virtual onchain exhibits can be namespaced with custom names that adhere to a simple protocol. 
 
 # XSAT 
 
 There is a special unique Counterparty named asset - XSAT 
-This will be the official registry asset and container for the *directory structure*.
+This will be the official registry asset and container for the directory structure.
 
 On Counterparty, the minumum characters for named assets is 4. It is common to add an X in front of a 3 character name.
 
@@ -53,14 +53,19 @@ The sats submitted to the Satorare Registry do not need to have an inscription a
 
 # SAT.SN
 
-A short URL for sats that only include the sat serial number (sn).
+A short URL for sats that only include the sat serial number (sn) or sat name (sn).
 These pages will show all info about the sat as well as tracking the sat as it traverses through the network.
 If there is an inscription, the data will be displayed.
-If there is available market activity (buys/sells) that info will be included.
+If there is available market activity (buys/sells), that info will be included.
 User contributed content, blockchain data, known associations such as world events etc are all available on sat pages.
 
+sat serial number format:
 - `sat.sn/0`
 - `sat.sn/1311797500000000`
+
+sat name format:
+- `<name>.sat.sn --> sat.sn/<serial_number>`
+- `sat.sn/<name>`
 
 # Registry Submissions
 
@@ -68,7 +73,13 @@ TBD
 
 # Token Config (XSAT, SATORARE etc)
 
-TBD
+XSAT subasset tokens will likely all be 0 or 1 supply (non-divisible) and locked.
+
+Collections using subassets under SATORARE may be more flexible with a variety of token issuance settings.
+Collection owners (curators) may choose to sell tokens to receive donations for the curatorial work involved and the resulting onchain exhibit which can be considered a form of art itself.
+In cases where the curator(s) want to tokenize their collections/exhibits, the asset ownership will be transferred to them. 
+
+Collections using assets other than SATORARE as parent can of course do whatever they want. 
 
 # Subcollections and Exhibits
 
