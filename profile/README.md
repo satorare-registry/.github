@@ -67,6 +67,16 @@ sat name format:
 - `<name>.sat.sn --> sat.sn/<serial_number>`
 - `sat.sn/<name>`
 
+# SATURN
+
+see https://twitter.com/sull/status/1647766582947459077
+
+`urn:sat:ord:1926444375000000?url=http://saturn.sn/`
+
+^^ not currently resolvable, no dereference.
+
+No current plan to register with IANA. 
+
 # Registry Submissions
 
 TBD
