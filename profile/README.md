@@ -24,6 +24,10 @@ The registry serves as a public utility for the new and future use case of ancho
 
 The Satorare Registry is essentially a curated collection of interesting sats and inscriptions. Subcollections and onchain exhibits will also be created from the master collection. These subcollections would be created by a community of curators that may form. Custom curated subcollections and virtual onchain exhibits can be namespaced with custom names that adhere to a simple protocol. 
 
+# Inscriptions
+
+The sats submitted to the Satorare Registry do not need to have an inscription associated with it.
+
 # XSAT 
 
 There is a special unique Counterparty named asset - XSAT 
@@ -47,10 +51,6 @@ It will also evolve into a hybrid wiki/markketplace/wallet.
 The data from the Satorare Registry is available to anyone for integration or general perusal. 
 It is on the Bitcoin Blockchain! 
 
-# Inscriptions
-
-The sats submitted to the Satorare Registry do not need to have an inscription associated with it.
-
 # SAT.SN
 
 A short URL for sats that only include the sat serial number (sn) or sat name (sn).
@@ -73,19 +73,23 @@ A Uniform Resource Name for sat serial numbers.
 
 see https://twitter.com/sull/status/1647766582947459077
 
-`urn:sat:ord:1926444375000000?=url=http://saturn.sn/`
+- `urn:sat:ord:1926444375000000?=url=http://saturn.sn/`
 
-`urn:sat:ord:1926444375000000?=url=http://sat.sn/`
+- `urn:sat:ord:1926444375000000?=url=http://sat.sn/`
 
 **HTTP URI Examples:**
 
-`http://saturn.sn/ord/1926444375000000`
+- `http://saturn.sn/ord/1926444375000000`
 
-`http://saturn.sn/ord?sn=1926444375000000`
+- `http://saturn.sn/ord?sn=1926444375000000`
 
-`http://sat.sn/1926444375000000`
+- `http://sat.sn/1926444375000000`
 
-`http://sat.sn/ord?sn=1926444375000000`
+- `http://sat.sn/ord?sn=1926444375000000`
+
+*With fragment specifying associated inscription data to be handled as primary content on resolved document:*
+
+- `http://saturn.sn/ord/1926444375000000#inscription`
 
 ^^ not currently resolvable, no dereference.
 
