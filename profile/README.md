@@ -69,9 +69,23 @@ sat name format:
 
 # SATURN
 
+A Uniform Resource Name for sat serial numbers.
+
 see https://twitter.com/sull/status/1647766582947459077
 
-`urn:sat:ord:1926444375000000?url=http://saturn.sn/`
+`urn:sat:ord:1926444375000000?=url=http://saturn.sn/`
+
+`urn:sat:ord:1926444375000000?=url=http://sat.sn/`
+
+**HTTP URI Examples:**
+
+`http://saturn.sn/ord/1926444375000000`
+
+`http://saturn.sn/ord?sn=1926444375000000`
+
+`http://sat.sn/1926444375000000`
+
+`http://sat.sn/ord?sn=1926444375000000`
 
 ^^ not currently resolvable, no dereference.
 
