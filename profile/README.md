@@ -101,7 +101,7 @@ Associated metadata in each subcollection will include all information about the
 
 - `SATORARE.<SUBCOLLECTION_NAME>.<XSAT_SERIAL_NUMBER>`
 
-All entries in a subcollection/exhibit simply reference the sat serial numbers that are included under XSAT as subassets. Any sat serial numbers not in the registry do not qualify to be included in subcollections/exhibits. This applies to any external subcollection as well. If there is discrepencies, the external subcollection will not be considered as part of Satorare but rather a seperate rogue collection, which is fine. It is encouraged to create curated Ordinal sats and inscriptions using Counterparty in the way that Satorare does. If these collections are referenced as curated curated collections, it will just be noted that it is not a strictly Satorare Protocol conforming collection. 
+All entries in a subcollection/exhibit simply reference the sat serial numbers that are included under XSAT as subassets. Any sat serial numbers not in the registry do not qualify to be included in subcollections/exhibits. This applies to any external subcollection as well. If there are discrepencies, the external subcollection will not be considered as part of Satorare but rather a seperate rogue collection, which is fine. It is encouraged to create curated Ordinal sats and inscriptions using Counterparty in the way that Satorare does. If these collections are referenced on satorare.org, it will be noted that they are not a Satorare conforming collection. 
 
 There may be cases where there are more complex organizing structures for subcollections. One example could be to support curator groups within groups or individual curators with their own curated subcollections but still associated with a larger group the individual is a part of.
 
@@ -139,5 +139,5 @@ The Wallet will be called Satori and more info will be published to http://sator
 
 # Satorare DAO
 
-lol ¯\_(ツ)_/¯  
+lol  ¯\_(ツ)_/¯  
 
