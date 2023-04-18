@@ -46,7 +46,7 @@ etc.
 
 Each XSAT Subasset will include metadata and chain info related to that Ordinal sat.
 Eventually, a market can form around this database where trustless PSBT trades can be done.
-It will also evolve into a hybrid wiki/markketplace/wallet. 
+It will also evolve into a hybrid wiki/marketplace/wallet. 
 
 The data from the Satorare Registry is available to anyone for integration or general perusal. 
 It is on the Bitcoin Blockchain! 
@@ -113,13 +113,11 @@ Collections using assets other than SATORARE as parent can of course do whatever
 
 While all entries in the Satorare Registry are stored as an XSAT subasset named with sat serial numbers, curated subcollections/exhibits can use any Counterparty asset owned by anyone as the organizing parent in a hierarchical structure. Official subcollections/exhibits created by the Satorare curation team will exist under the **SATORARE** Counterparty Asset.
 
-- `SATORARE.<SUBCOLLECTION_NAME>`
+- `SATORARE.<SUBCOLLECTION_NAME><XSAT_SERIAL_NUMBER>`
 
 Associated metadata in each subcollection will include all information about the curated subcollection such as curation criteria, curator(s) statement and list of curator idenitifiers (if desired to be referenced).
 
-- `SATORARE.<SUBCOLLECTION_NAME>.<XSAT_SERIAL_NUMBER>`
-
-All entries in a subcollection/exhibit simply reference the sat serial numbers that are included under XSAT as subassets. Any sat serial numbers not in the registry do not qualify to be included in subcollections/exhibits. This applies to any external subcollection as well. If there are discrepencies, the external subcollection will not be considered as part of Satorare but rather a seperate rogue collection, which is fine. It is encouraged to create curated Ordinal sats and inscriptions using Counterparty in the way that Satorare does. If these collections are referenced on satorare.org, it will be noted that they are not a Satorare conforming collection. 
+All entries in a subcollection/exhibit simply reference the sat serial numbers that are included under XSAT as subassets. There is also an asset ID (numeric) that exists. Any sat serial numbers not in the registry do not qualify to be included in subcollections/exhibits. This applies to any external subcollection as well. If there are discrepencies, the external subcollection will not be considered as part of Satorare but rather a seperate **rogue** collection, which is fine. It is encouraged to create curated Ordinal sats and inscriptions using Counterparty in the way that Satorare does. These collections may be referenced by Satorare as noteworthy and high quality exhibit. The sats that are included in external collections but not in Satorare could be discovered and added and vise versa. No competition. Just curation protocols.
 
 There may be cases where there are more complex organizing structures for subcollections. One example could be to support curator groups within groups or individual curators with their own curated subcollections but still associated with a larger group the individual is a part of.
 
@@ -145,7 +143,7 @@ STAMPS Protocol will be used within Satorare Registry to store metadata (with or
 
 The metadata standard that Satorare will use is TBD. 
 
-# Wallet and Marketplace (Satori)
+# Satori Wallet
 
 While the Satorare Registry is up and running (managed by team and used by community) there will be an ongoing development project to build a new Wallet and Marketplace that leverages the Satorare Registry data. It is hoped that other wallets, tools and services will also integrate the Satorare Registry.
 
