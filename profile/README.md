@@ -36,7 +36,8 @@ The sats submitted to the Satorare Registry do not need to have an inscription a
 
 # XSAT 
 
-There is a special unique Counterparty named asset *XSAT*
+**XSAT** is a special unique Counterparty named asset. XSAT represent actual Bitcoin sats.
+
 This will be the official registry asset and container for the directory structure.
 
 On Counterparty, the minumum characters for named assets is 4. It is common to add an X in front of a 3 character name.
@@ -70,11 +71,17 @@ sat name format:
 
 A Uniform Resource Name for sat serial numbers.
 
-see https://twitter.com/sull/status/1647766582947459077
+see https://en.wikipedia.org/wiki/Uniform_Resource_Name
+
+- `urn:sat:ord:1926444375000000`
+
+**Examples with URL resolver parameter:**
 
 - `urn:sat:ord:1926444375000000?=url=http://saturn.sn/`
 
 - `urn:sat:ord:1926444375000000?=url=http://sat.sn/`
+
+- `urn:sat:ord:1926444375000000?=url=http://ord.io/sat/`
 
 **HTTP URI Examples:**
 
