@@ -14,6 +14,8 @@ The word itself is rarely used.
 
 # The Registry
 
+The Satorare Registry compliments the [Ordinals](https://ordinals.com) Protocol and ecosystem. Satorare's purpose is simple. Curate and surface sats of value. While the purpose is simple, the process and depth of criteria that is used to determine sats of value is complex. This is because anything can be anchored to a sat.  
+
 The Satorare Registry will use the Counterparty Bitcoin Asset and Message Protocol. Though not commonly used to organize information, it happens to be an ideal platform for this use case by leveraging subassets to create collections and parent-child hierachies with enough text for values to make it useful like a K/V store. All data is pushed onchain as special Counterparty protocol messages (on Bitcoin Blockchain).
 
 Prior to the entries on Counterparty that get pushed onchain, this Github organization's repo(s) will be used to submit Ordinal sat serial numbers with additional information pertaining to why it should be included in the Satorare Registry and be considered one of the sats of value. 
@@ -24,13 +26,17 @@ The registry serves as a public utility for the new and future use case of ancho
 
 The Satorare Registry is essentially a curated collection of interesting sats and inscriptions. Subcollections and onchain exhibits will also be created from the master collection. These subcollections would be created by a community of curators that may form. Custom curated subcollections and virtual onchain exhibits can be namespaced with custom names that adhere to a simple protocol. 
 
+The data from the Satorare Registry is available to anyone for integration or general perusal. 
+
+*It is on the Bitcoin Blockchain!*
+
 # Inscriptions
 
 The sats submitted to the Satorare Registry do not need to have an inscription associated with it.
 
 # XSAT 
 
-There is a special unique Counterparty named asset - XSAT 
+There is a special unique Counterparty named asset *XSAT*
 This will be the official registry asset and container for the directory structure.
 
 On Counterparty, the minumum characters for named assets is 4. It is common to add an X in front of a 3 character name.
@@ -42,14 +48,7 @@ Examples:
 - `XSAT.0`
 - `XSAT.1311797500000000`
 
-etc.
-
 Each XSAT Subasset will include metadata and chain info related to that Ordinal sat.
-Eventually, a market can form around this database where trustless PSBT trades can be done.
-It will also evolve into a hybrid wiki/marketplace/wallet. 
-
-The data from the Satorare Registry is available to anyone for integration or general perusal. 
-It is on the Bitcoin Blockchain! 
 
 # SAT.SN
 
