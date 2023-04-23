@@ -101,6 +101,12 @@ see https://en.wikipedia.org/wiki/Uniform_Resource_Name
 
 No current plan to register with IANA. 
 
+# SAT DIDs
+
+TBD
+
+[www.w3.org/TR/did-core/](https://www.w3.org/TR/did-core/)
+
 # Registry Submissions
 
 TBD
