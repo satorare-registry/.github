@@ -155,7 +155,9 @@ STAMPS Protocol will be used within Satorare Registry to store metadata (with or
 
 The metadata standard that Satorare will use is TBD. 
 
-# Satori Wallet
+# Future
+
+## Satori Wallet
 
 While the Satorare Registry is up and running (managed by team and used by community) there will be an ongoing development project to build a new Wallet and Marketplace that leverages the Satorare Registry data. It is hoped that other wallets, tools and services will also integrate the Satorare Registry.
 
@@ -165,7 +167,40 @@ The Wallet will be called Satori and more info will be published to http://sator
 
 > Satori refers to a sudden, intuitive understanding or insight into the nature of reality or the true nature of oneself. It is often described as a moment of enlightenment or awakening, in which one transcends the limitations of the ego and experiences a sense of oneness with the universe. Satori is considered to be a profound and transformative experience, and is often sought after by Zen practitioners through meditation and other spiritual practices.
 
-# Satorare DAO
+## Ordinals Envelopes as Counterparty Address Type
+
+Proposed by Joe Looney here:
+
+[forums.counterparty.io/t/ordinal-envelopes/6504](https://forums.counterparty.io/t/ordinal-envelopes/6504)
+
+XSAT could possibly be a relevant asset tree for this model.
+
+## HALPAL
+
+**H**yper**A**ddress **L**ocation **P**rotocol for **A**ttributes and **L**abels
+
+A seperate parallel protocol to Ordinals. 
+
+**XHAL**
+
+Also involves it's own registry on Counterparty using the **XHAL** asset tree.
+
+May have some overlap with above **Ordinals Envelopes** concept. May leverage Counterparty Dispenser tech.
+
+[halpal.org](https://halpal.org) / halpal.io
+
+## HALPAL STAMPS
+
+These two STAMP NFTs may be used as an acceptable currency for the Satorare and HALPAL projects.
+Each has 10 divisible tokens.
+
+See this twitter thread:
+[twitter.com/sull/status/1643684675376881697](https://twitter.com/sull/status/1643684675376881697)
+
+<img width="403" alt="Screenshot 2023-04-06 at 12 51 51 PM" src="https://user-images.githubusercontent.com/78568138/234727580-781be8aa-5405-464e-a15f-1ea2fb69704a.png"> <img width="402" alt="Screenshot 2023-04-06 at 12 52 11 PM" src="https://user-images.githubusercontent.com/78568138/234727581-c4424211-f59c-4b3c-8277-e918df87326a.png">
+
+
+## Satorare DAO
 
 lol  ¯\_(ツ)_/¯  
 
